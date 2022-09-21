@@ -181,9 +181,7 @@ photo2 = PhotoImage(file=r"icons8-cancel-96.png")
 button_Cancel = Button(canvas, text="Cancel",
                        command=cancel, image=photo2, highlightthickness=0,  relief=FLAT)
 button_Cancel.place(x=80, y=380)
-frame_binome = Frame(canvas, width=470, height=50)
-frame_binome.place(x=250, y=430)
-label_binome = Label(frame_binome, text="Créer par :Mouhoub Souhila et ouafi melissa\n Encadré par: Madame Ait Abdeslam",font=("Arial",15,"bold")).place(x=0,y=0)
+
 #frames
 Frame_import = Frame(window, borderwidth=2, relief=GROOVE,
                      bd=0, highlightthickness=0)
